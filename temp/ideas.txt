@@ -1,2 +1,3 @@
--let's match: place where you can find people to play with
--hostel currency
+-let's match: find people to do stuff with
+-hostel currency; food exchange, notes exc, drinks exc
+-
