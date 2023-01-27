@@ -20,3 +20,10 @@ for x in bb_user:
     basketball.append(x["name"])
 for x in bd_user:
     badminton.append(x["name"])
+
+print('football online\n')
+print(*football, sep = "\n")
+print('basketball online\n')
+print(*basketball, sep = "\n")
+print('badminton online\n')
+print(*badminton, sep = "\n")

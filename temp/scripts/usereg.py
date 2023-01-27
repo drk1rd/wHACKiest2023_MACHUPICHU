@@ -20,3 +20,4 @@ else:
     print("error")
 post = {"name":name,"sport":sports}
 collection.insert_one(post)
+
