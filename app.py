@@ -3,8 +3,23 @@ from flask_wtf import Form
 from wtforms import StringField
 from ftod import ftod
 from dtof import dtof
+from flask_socketio import SocketIO, send
 
 app = Flask(__name__)
+
+
+socketio = SocketIO(app, cors_allowed_origins="*")
+
+
+@socketio.on("message")
+def sendMessage(message):
+    send(message, broadcast=True)
+    # send() function will emit a message vent by default
+
+
+@app.route("/chat")
+def message():
+    return render_template("chat.html")
 
 
 # Simple form handling using raw HTML forms
