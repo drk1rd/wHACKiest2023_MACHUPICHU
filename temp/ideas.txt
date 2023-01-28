@@ -1,3 +1,0 @@
--let's match: find people to do stuff with
--hostel currency; food exchange, notes exc, drinks exc
--

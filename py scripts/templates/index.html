@@ -1,0 +1,42 @@
+
+{% block title %}Welcome!{% endblock %}
+
+
+{% block content %}
+    <form method="POST">
+        <p>
+            <label for="first">Name:</label>
+            <input id="first" name="firstname" type="text" preview="Enter your name">
+        </p>
+        <label for="sport">Choose a game:</label>
+        <br>
+        <select name="lastname" id="last" multiple>
+          <option value="Football">Football</option>
+          <option value="Basketball">Basketball</option>
+          <option value="Badminton">Badminton</option>
+        </select>
+        <br><br>
+        <input type="submit" value="LOG ME IN">
+    </form>
+{% endblock %}
+<div>
+    <button onclick="darkMode()">Darkmode</button>
+  </div>
+  <script>
+    function darkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+  <style>
+    body {
+      padding: 25px;
+      background-color: white;
+      color: black;
+      font-size: 25px;
+    }
+    .dark-mode {
+      background-color: black;
+      color: white;
+    }
+  </style>
