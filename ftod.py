@@ -1,7 +1,11 @@
 import pymongo
 from pymongo import MongoClient
+import os
+from dotenv import load_dotenv
+load_dotenv()
+MONGO = os.getenv('MONGO')
 
-cluster = MongoClient('mongodb+srv://root:toor@cluster0.r8i6ufr.mongodb.net/?retryWrites=true&w=majority') #connects to database
+cluster = MongoClient(MONGO) #connects to database
 
 db=cluster['lmdb']
 collection=db['users']

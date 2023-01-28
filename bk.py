@@ -1,6 +1,7 @@
 import pymongo
 from pymongo import MongoClient
 
+
 cluster = MongoClient('mongodb+srv://root:toor@cluster0.r8i6ufr.mongodb.net/?retryWrites=true&w=majority') #connects to database
 
 db=cluster['lmdb']
@@ -22,8 +23,8 @@ for x in bd_user:
     badminton.append(x["name"])
 
 print('football online\n')
-print(*football, sep = "\n")
+fblist=print(*football, sep = "\n")
 print('basketball online\n')
-print(*basketball, sep = "\n")
+bblist=print(*basketball, sep = "\n")
 print('badminton online\n')
-print(*badminton, sep = "\n")
+bdlist=print(*badminton, sep = "\n")

@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>NEXT MATCH</title>
+</head>
+
+<body>
+  <h1 align='center'>
+    NEXT MATCH
+  </h1>
+  <p>
+    Badminton:
+</p>
+{% for x in userl %}
+    <p>{{ x }} </p>
+{% endfor %}
+</body>
+<div>
+  <button onclick="darkMode()">Darkmode</button>
+</div>
+<script>
+  function darkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
+</script>
+<style>
+  body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+</style>
+</html>
