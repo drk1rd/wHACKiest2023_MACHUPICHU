@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "989936767523",
+    "firebase_url": "https://whackiest-b76f8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "whackiest-b76f8",
+    "storage_bucket": "whackiest-b76f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989936767523:android:889ffc52de50fac3b0d796",
+        "android_client_info": {
+          "package_name": "com.example.whackiest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989936767523-e5ebssfk5ja3p1hp1ht6otfu4te5i6k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHN2J8x-LvqFMxKSY96ve8-IstY9wHfAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989936767523-e5ebssfk5ja3p1hp1ht6otfu4te5i6k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
